@@ -1,0 +1,5 @@
+<div class="movie-box" routerLink="/detail/{{ movie?.name }}">
+  <h4>{{ movie?.name }}</h4>
+  <p>{{ movie?.description }}</p>
+  <img [src]="movie?.image" />
+</div>
